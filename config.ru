@@ -1,4 +1,5 @@
 require 'opal'
+require 'opal-browser'
 
 # the directory where the code is (add to opal load path )
 Opal.append_path 'app'
