@@ -1,3 +1,6 @@
 require 'opal'
-require 'native'
-$$.alert 'Hello World from Opal!'
+require 'template'
+require 'views/hello'
+
+template = Template['views/hello']
+puts template.render('ERB')
